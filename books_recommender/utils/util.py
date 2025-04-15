@@ -11,6 +11,6 @@ def read_yaml_file(file_path:str)->dict:
     """
     try: 
         with open(file_path, 'rb') as yaml_file:
-            return yaml.safe_load(yaml_file)
+            return yaml.safe_load(yaml_file) #Converts yaml to dictionary
     except Exception as e:
         raise AppException(e, sys) from e
