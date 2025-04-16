@@ -1,5 +1,15 @@
 # Recommender-System
 
+## Workflow
+
+- config.yaml
+- entity
+- config/configuration.py
+- component
+- pipeline
+- main.py
+- app.py
+
 # How to run?
 ### Steps: 
 
