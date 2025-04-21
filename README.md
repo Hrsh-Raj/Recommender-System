@@ -72,14 +72,14 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t /stapp:latest . #
+docker build -t Hrraj/stapp:latest . 
 
 ```bash
 docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 /stapp #
+docker run -d -p 8501:8501 Hrraj/stapp 
 ```
 
 ```bash
@@ -99,15 +99,15 @@ docker login
 ```
 
 ```bash
-docker push /stapp:latest #
+docker push Hrraj/stapp:latest 
 ```
 
 ```bash
-docker rmi /stapp:latest #
+docker rmi Hrraj/stapp:latest 
 ```
 
 ```bash
-docker pull /stapp #
+docker pull Hrraj/stapp 
 ```
 
 
